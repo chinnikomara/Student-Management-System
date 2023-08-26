@@ -187,7 +187,7 @@ def DisplayData():
     cursor.close()
     conn.close()
 
-#calling function
+#calling
 DisplayForm()
 if __name__=='__main__':
 #Running Application
