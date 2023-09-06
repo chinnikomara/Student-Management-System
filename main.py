@@ -12,7 +12,7 @@ def Database():
     cursor.execute(
         "CREATE TABLE IF NOT EXISTS STUD_REGISTRATION (STU_ID INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, STU_NAME TEXT, STU_CONTACT TEXT, STU_EMAIL TEXT, STU_ROLLNO TEXT, STU_BRANCH TEXT)")
 
-#defining function for creating GUI Layout
+#defining GUI
 def DisplayForm():
     #creating window
     display_screen = Tk()
@@ -169,7 +169,7 @@ def SearchRecord():
             tree.insert('', 'end', values=(data))
         cursor.close()
         conn.close()
-#defining function to access data from SQLite database
+#defining function to access data from database
 def DisplayData():
     #open database
     Database()
