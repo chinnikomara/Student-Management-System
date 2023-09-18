@@ -151,7 +151,6 @@ def Delete():
             cursor.close()
             conn.close()
 
-#function to search data
 def SearchRecord():
     #open database
     Database()
