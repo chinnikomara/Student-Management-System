@@ -133,6 +133,7 @@ def Reset():
     email.set("")
     rollno.set("")
     branch.set("")
+
 def Delete():
     #open database
     Database()
@@ -168,6 +169,7 @@ def SearchRecord():
         cursor.close()
         conn.close()
 #defining function to access data from database
+
 def DisplayData():
     #open database
     Database()
