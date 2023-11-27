@@ -155,7 +155,6 @@ def Delete():
 def SearchRecord():
     #open database
     Database()
-    #checking search text is empty or not
     if SEARCH.get() != "":
         #clearing current display data
         tree.delete(*tree.get_children())
