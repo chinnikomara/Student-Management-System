@@ -135,7 +135,7 @@ def Reset():
     branch.set("")
 
 def Delete():
-    #open database
+    #opening database
     Database()
     if not tree.selection():
         tkMessageBox.showwarning("Warning","Select data to delete")
