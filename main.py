@@ -99,7 +99,7 @@ def DisplayForm():
     tree.column('#4', stretch=NO, minwidth=0, width=120)
     tree.pack()
     DisplayData()
-#function to insert data into database
+# function to insert data into database
 def register():
     Database()
     #getting form data
