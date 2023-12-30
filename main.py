@@ -57,7 +57,7 @@ def DisplayForm():
     Entry(LFrom, font=("Arial", 10, "bold"),textvariable=branch).pack(side=TOP, padx=10, fill=X)
     Button(LFrom,text="Submit",font=("Arial", 10, "bold"),command=register).pack(side=TOP, padx=10,pady=5, fill=X)
 
-    #creating search label and entry in second frame
+    #creating search label and entry in the second frame
     lbl_txtsearch = Label(LeftViewForm, text="Enter name to Search", font=('verdana', 10),bg="gray")
     lbl_txtsearch.pack()
     #creating search entry
